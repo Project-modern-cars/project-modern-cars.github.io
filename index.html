@@ -1,30 +1,193 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Modern Technology of Cars</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
   <style>
-    h1.b{text-decoration:underline;}
-    h1.a{font-size:50px;
-       text-shadow: 3px 2px blue;
-       text-decoration:underline;}
-    body{
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
       font-family: 'Poppins', sans-serif;
-      background-image:url("background image.jpg");
-      color:white;}
-    h1{font-size:40px}
+      line-height: 1.6;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #203a43;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background: #203a43;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    /* Mobile Optimization */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      section {
+        padding: 40px 15px;
+      }
+    }
   </style>
- </head>
+</head>
 <body>
-<h1 class=a><center>Modern Technology Of Cars</center></h1>
-  <marquee scrollamount=25>
-<img src="homapage image.jpg" width=800 height=350>
-    </marquee>
-  <h1 class="b">Introduction</h1>
-  <p>Modern cars have evolved far beyond basic transportation. With the integration of advanced technology, cars today offer improved safety, efficiency, comfort, and connectivity. Innovations such as electric vehicles, smart safety systems, and driver-assistance technologies are shaping the future of the automobile industry.</p>
-  <h1 class="b">Why Modern Car Technology Matters</h1>
-    <p>Modern car technology helps reduce accidents, lower fuel consumption, and minimize environmental impact. It also makes driving easier and more comfortable through smart features and automated systems, improving overall road safety and user experience.</p>
-  <h1 class=b>Key Areas of Modern Car Technology</h1>
-  <p>Electric & Hybrid Vehicles.
-Electric and hybrid cars use battery-powered motors and efficient engines to reduce pollution and dependence on fossil fuels while providing smooth and quiet performance.</p>
+
+  <!-- Header -->
+  <header>
+    <h1>Modern Technology of Cars</h1>
+    <p>How advanced technologies are transforming cars into safer, smarter, and more eco-friendly machines.</p>
+  </header>
+
+  <!-- Introduction -->
+  <section>
+    <div class="container">
+      <div class="card">
+        <h2>Introduction</h2>
+        <p>
+          Modern cars are no longer just a means of transportation. They are equipped with advanced technologies
+          that improve safety, comfort, efficiency, and connectivity. With the help of electronics, software,
+          and intelligent systems, cars have become smarter and more reliable.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Technologies -->
+  <section>
+    <div class="container">
+      <div class="card">
+        <h2>Key Technologies in Modern Cars</h2>
+        <p>
+          Today’s vehicles use powerful onboard computers and sensors to control various functions.
+          Touchscreen infotainment systems, GPS navigation, voice commands, and digital dashboards
+          provide drivers with a smooth and user-friendly experience.
+        </p>
+        <p>
+          Connectivity features like Bluetooth and smartphone integration allow drivers to access
+          calls, music, and navigation safely while driving.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety -->
+  <section>
+    <div class="container">
+      <div class="card">
+        <h2>Safety Technologies</h2>
+        <p>
+          Safety is one of the most important aspects of modern car design. Technologies such as
+          Anti-lock Braking System (ABS), airbags, traction control, and electronic stability control
+          help reduce accidents.
+        </p>
+        <p>
+          Advanced systems like lane-keeping assist, parking sensors, and automatic emergency braking
+          protect both drivers and pedestrians.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Electric Cars -->
+  <section>
+    <div class="container">
+      <div class="card">
+        <h2>Electric and Hybrid Vehicles</h2>
+        <p>
+          Electric and hybrid cars are becoming popular due to rising fuel costs and environmental concerns.
+          These vehicles use electric motors and batteries to reduce pollution and fuel consumption.
+        </p>
+        <p>
+          They are quieter, more efficient, and help in reducing carbon emissions, making them a key part
+          of sustainable transportation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Future -->
+  <section>
+    <div class="container">
+      <div class="card">
+        <h2>Future of Car Technology</h2>
+        <p>
+          The future of cars includes autonomous driving, artificial intelligence, and smart traffic systems.
+          Self-driving cars may reduce accidents caused by human error and improve road safety.
+        </p>
+        <p>
+          With continuous innovation, cars will become more intelligent, efficient, and environmentally friendly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Modern Technology of Cars | Created by Naitik</p>
+  </footer>
+
 </body>
 </html>
